@@ -1,4 +1,4 @@
-Attribute VB_Name = "aThisss"
+Attribute VB_Name = "RelocationArrays"
 Option Explicit
 
 Sub RelocationArraysWithoutSelection()
@@ -35,7 +35,3 @@ Csheet.Cells(CsheetbeginRow, 1).Resize(UBound(ArrIn, 1), UBound(ArrIn, 2)) = Arr
 ADO.Destroy
 
 End Sub
-
-
-
-
